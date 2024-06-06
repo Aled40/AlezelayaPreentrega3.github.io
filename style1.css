@@ -14,7 +14,7 @@
     margin: 0px;
 }
 
-.active{
+.nav-active{
     font-weight: bold;
     border-bottom: 2px solid green;
 }
@@ -52,13 +52,9 @@
 }
 
 .card-productos{
-    margin-top: 200000px;
+    margin: 0 auto;
+    width: 90%;
 }
-
-.productos{
-    margin: 200px;
-}
-
 .productimg img{
     width: 2px;
     height: 2px}
