@@ -14,6 +14,10 @@
     margin: 0px;
 }
 
+.active{
+    font-weight: bold;
+    border-bottom: 2px solid green;
+}
 .carousel-item {
     min-height: 400px;
 }
