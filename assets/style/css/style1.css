@@ -1,0 +1,17 @@
+/* Error: semicolons aren't allowed in the indented syntax.
+ *   ,
+ * 1 | @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700;1,800&display=swap");
+ *   |                                                                                                                           ^
+ *   '
+ *   assets\style\css\scss\style1.sass 1:123  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: semicolons aren't allowed in the indented syntax.\a   \2577 \a 1 \2502  @import url(\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700;1,800&display=swap\");\a   \2502                                                                                                                            ^\a   \2575 \a   assets\\style\\css\\scss\\style1.sass 1:123  root stylesheet";
+}
