@@ -1,17 +1,174 @@
-/* Error: semicolons aren't allowed in the indented syntax.
- *   ,
- * 1 | @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700;1,800&display=swap");
- *   |                                                                                                                           ^
- *   '
- *   assets\style\css\scss\style1.sass 1:123  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: semicolons aren't allowed in the indented syntax.\a   \2577 \a 1 \2502  @import url(\"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700;1,800&display=swap\");\a   \2502                                                                                                                            ^\a   \2575 \a   assets\\style\\css\\scss\\style1.sass 1:123  root stylesheet";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700;1,800&display=swap");
+* {
+  font-family: "poppins", sans-serif;
 }
+
+.navbard a {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.navcontainer {
+  padding: 0px 0px 0px 0px;
+  margin: 0px;
+}
+
+.nav-active {
+  font-weight: bold;
+  border-bottom: 2px solid #212529;
+}
+
+.carousel-item {
+  min-height: 400px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: 70px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: 10px auto;
+  font-size: 18px;
+}
+
+.carousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.imagenportada {
+  width: 100%;
+  height: 400px;
+}
+
+.card-productos {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.productimg img {
+  width: 2px;
+  height: 2px;
+}
+
+.services {
+  padding: 50px 0;
+}
+
+.card-body {
+  width: 200px;
+  height: 200px;
+}
+
+.bg-car1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../reptiles/reptilportada.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-car2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../perros/Recurso2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-car3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../anfibios/Anfibiosportada.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titlle {
+  font-size: 10px;
+}
+
+.box-icons i {
+  font-size: 40px;
+}
+
+.box-icons h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.product {
+  padding: 0px;
+}
+
+.secction-header {
+  padding: 20px;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+}
+
+.banner {
+  padding: 50px 0;
+  margin-bottom: 20px;
+  background-color: beige;
+}
+
+.banner2 {
+  padding: 80px 0;
+  margin-bottom: 20px;
+  background-color: #212529;
+}
+
+.banner h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.banner img {
+  width: 300px;
+}
+
+@media (max-width: 767px) {
+  .carousel-item {
+    min-height: 500px;
+  }
+  .carousel-item img {
+    height: 500px;
+  }
+  .carousel-caption {
+    bottom: 30px;
+  }
+  .carousel-caption h5 {
+    font-size: 50px;
+    margin-top: 0;
+  }
+  .carousel-caption p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .services {
+    padding: 30px 0;
+  }
+  .product {
+    padding: 30px 0 0 0;
+  }
+}
+
+
+/*# sourceMappingURL=style1.css.map */
