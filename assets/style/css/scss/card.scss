@@ -1,0 +1,41 @@
+.card-productos {
+    margin: 0 auto;
+    width: 90%;
+  }
+  
+  .productimg img {
+    width: 2px;
+    height: 2px;
+  }
+  
+  .services {
+    padding: 50px 0;
+  }
+  
+  .card-body {
+    width: 200px;
+    height: 200px;
+    
+  }
+
+  .bg-car1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../reptiles/reptilportada.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-car2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../perros/Recurso2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .bg-car3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../anfibios/Anfibiosportada.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
