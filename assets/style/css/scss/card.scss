@@ -1,41 +1,65 @@
-.card-productos {
-    margin: 0 auto;
-    width: 90%;
-  }
-  
-  .productimg img {
-    width: 2px;
-    height: 2px;
-  }
-  
-  .services {
-    padding: 50px 0;
-  }
-  
-  .card-body {
-    width: 200px;
-    height: 200px;
-    
-  }
+@import "variable";
 
-  .bg-car1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../reptiles/reptilportada.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+/*Implementacion de nesting*/
+
+.card-body {
+  width: 200px;
+  height: 200px;
+  .card-title {
+    color: $colorprimario;
+    font-weight: 500;
   }
-  
-  .bg-car2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../perros/Recurso2.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+}
+
+.card-servicios {
+  width: 200px;
+  height: 200px;
+  padding: 1rem 1rem;
+
+  .card-title {
+    color: $colorsecundario;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    color: var(--bs-card-title-color);
   }
-  
-  .bg-car3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../anfibios/Anfibiosportada.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+}
+
+/*codigo pasado de css a scss*/
+
+.card-productos {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.productimg img {
+  width: 2px;
+  height: 2px;
+}
+
+.services {
+  padding: 50px 0;
+}
+
+.bg-car1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../reptiles/reptilportada.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-car2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../perros/Recurso2.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-car3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../anfibios/Anfibiosportada.jpeg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
