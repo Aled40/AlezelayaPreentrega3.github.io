@@ -16,8 +16,8 @@
 }
 
 .nav_primary{
-  background-color: transparent !important;
-  color: azure;
+  background-color:$colorprimario !important;
+  color: rgb(0, 3, 3);
    .nav-active{
       border-bottom: 2px solid $colorsecundario;
     }
