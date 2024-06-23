@@ -3,6 +3,13 @@
   font-family: "poppins", sans-serif;
 }
 
+/*Color de textos principales*/
+/*Color blanco*/
+/*Color de banner*/
+/*Color de navba*/
+/*Color de bonton principal*/
+/*Color de bonton secundario*/
+/*Color de bonton catalog*/
 .navbard a {
   font-weight: 600;
   font-size: 18px;
@@ -18,6 +25,38 @@
   border-bottom: 2px solid #212529;
 }
 
+.nav_primary {
+  background-color: transparent !important;
+  color: azure;
+}
+.nav_primary .nav-active {
+  border-bottom: 2px solid #ffffff;
+}
+.nav_primary .nav-item .nav-link {
+  color: aliceblue;
+}
+
+.logocolor {
+  color: #008584;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logocolor-primary {
+  color: #212529;
+}
+
+.textNav_primary {
+  text-decoration: #ffffff !important;
+}
+
+/*Color de textos principales*/
+/*Color blanco*/
+/*Color de banner*/
+/*Color de navba*/
+/*Color de bonton principal*/
+/*Color de bonton secundario*/
+/*Color de bonton catalog*/
 .carousel-item {
   min-height: 400px;
 }
@@ -54,6 +93,10 @@
 /*Color de textos principales*/
 /*Color blanco*/
 /*Color de banner*/
+/*Color de navba*/
+/*Color de bonton principal*/
+/*Color de bonton secundario*/
+/*Color de bonton catalog*/
 /*Implementacion de nesting*/
 .card-body {
   width: 200px;
@@ -73,7 +116,10 @@
   color: #ffffff;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  color: var(--bs-card-title-color);
+}
+
+.bg_primary {
+  background-color: #c5e2dc !important;
 }
 
 /*codigo pasado de css a scss*/
@@ -115,6 +161,93 @@
 /*Color de textos principales*/
 /*Color blanco*/
 /*Color de banner*/
+/*Color de navba*/
+/*Color de bonton principal*/
+/*Color de bonton secundario*/
+/*Color de bonton catalog*/
+/*Color de textos principales*/
+/*Color blanco*/
+/*Color de banner*/
+/*Color de navba*/
+/*Color de bonton principal*/
+/*Color de bonton secundario*/
+/*Color de bonton catalog*/
+/*Implementacion de mixings*/
+.btn-custom {
+  color: #ffffff;
+  background-color: #006666;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px 6px 12px 0;
+  cursor: pointer;
+}
+.btn-custom:visited {
+  color: #ffffff;
+}
+.btn-custom:hover {
+  color: #212529;
+  background-color: #f5f5f5;
+}
+.btn-custom:active, .btn-custom:focus {
+  color: #212529;
+  background-color: #f5f5f5;
+}
+
+.btn-custom2 {
+  color: #ffffff;
+  background-color: #008584;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px 6px 12px 0;
+  cursor: pointer;
+}
+.btn-custom2:visited {
+  color: #ffffff;
+}
+.btn-custom2:hover {
+  color: #212529;
+  background-color: #f5f5f5;
+}
+.btn-custom2:active, .btn-custom2:focus {
+  color: #212529;
+  background-color: #f5f5f5;
+}
+
+.btn-catalogo {
+  color: #ffffff;
+  background-color: #008584;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 12px 6px 12px 0;
+  cursor: pointer;
+}
+.btn-catalogo:visited {
+  color: #ffffff;
+}
+.btn-catalogo:hover {
+  color: #212529;
+  background-color: #e9e9e9;
+}
+.btn-catalogo:active, .btn-catalogo:focus {
+  color: #212529;
+  background-color: #e9e9e9;
+}
+
 .imagenportada {
   width: 100%;
   height: 400px;
@@ -198,6 +331,26 @@
     padding: 30px 0 0 0;
   }
 }
+.contact_button {
+  margin: 10px;
+  width: 15rem;
+  display: inline-block;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: #f5f5f5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  border-radius: 12px 6px 12px 0;
+  background-color: #006666;
+}
+
 
 
 /*# sourceMappingURL=style1.css.map */

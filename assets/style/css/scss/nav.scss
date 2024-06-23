@@ -1,3 +1,5 @@
+@import "variable";
+
 .navbard a {
   font-weight: 600;
   font-size: 18px;
@@ -11,4 +13,36 @@
 .nav-active {
   font-weight: bold;
   border-bottom: 2px solid #212529;
+}
+
+.nav_primary{
+  background-color: transparent !important;
+  color: azure;
+   .nav-active{
+      border-bottom: 2px solid $colorsecundario;
+    }
+  .nav-item{
+    
+    .nav-link{
+      color: aliceblue;
+    }
+
+  }
+ 
+}
+
+.logocolor{
+  color: $colorbase;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logocolor-primary{
+  color: $colorprimario;
+  
+}
+
+.textNav_primary{
+  text-decoration: $colorsecundario !important;
+ 
 }

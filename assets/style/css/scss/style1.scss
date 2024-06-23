@@ -1,11 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,500;1,600;1,700;1,800&display=swap");
 * {
-  font-family: "poppins", sans-serif;}
+  font-family: "poppins", sans-serif;
+}
 
 @import "nav";
 @import "carousel";
 @import "card";
 @import "variable";
+@import "mixins";
+
+.btn-custom {
+  @include links($colorbotonPrimario,$colorbotonPrimariohover,$colorsecundario,$colorsecundario,$colorprimario, $colorprimario);
+}
+.btn-custom2 {
+  @include links($colorbotonsecundario, $colorbotonsecundariohover,$colorsecundario,$colorsecundario,$colorprimario, $colorprimario);
+}
+.btn-catalogo {
+  @include links($colorbotoncatalogo, $colorbotoncatalogohover,$colorsecundario,$colorsecundario,$colorprimario, $colorprimario);
+}
+
 
 .imagenportada {
   width: 100%;
@@ -13,11 +26,12 @@
 }
 .titlle {
   font-size: 10px;
-  color: $colorsecundario}
+  color: $colorsecundario;
+}
 
-  .card-title{
-    color: $colorsecundario;
-  }
+.card-title {
+  color: $colorsecundario;
+}
 
 .box-icons i {
   font-size: 40px;
@@ -89,14 +103,20 @@
   }
 }
 
-
-@mixin input-size($parent, $input-height, $padding-y, $padding-x, $font-size, $line-height, $border-radius) {
+@mixin input-size(
+  $parent,
+  $input-height,
+  $padding-y,
+  $padding-x,
+  $font-size,
+  $line-height,
+  $border-radius
+) {
   #{$parent} {
     height: $input-height;
     padding: $padding-y $padding-x;
     font-size: $font-size;
     line-height: $line-height;
-    @include border-radius($border-radius);
   }
 
   select#{$parent} {
@@ -109,6 +129,12 @@
     height: auto;
   }
 }
+
+.contact_button{
+  @include buttons ($colorbotonPrimariohover,$colorbotonPrimario);
+}
+
+
 
 
 

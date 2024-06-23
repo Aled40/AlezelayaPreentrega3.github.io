@@ -20,8 +20,11 @@
     color: $colorsecundario;
     font-weight: 500;
     margin-bottom: 0.5rem;
-    color: var(--bs-card-title-color);
   }
+}
+
+.bg_primary{
+  background-color: $calorbg !important;
 }
 
 /*codigo pasado de css a scss*/

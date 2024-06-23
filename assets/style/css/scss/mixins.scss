@@ -1,0 +1,57 @@
+@import "variable";
+
+/*Implementacion de mixings*/
+
+@mixin links($primarycolor, $hovercolor, $link, $visited, $hover, $active) {
+  & {
+    color: $link;
+    background-color:$primarycolor;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px 6px 12px 0;
+    cursor: pointer;
+    &:visited {
+      color: $visited;
+    }
+    &:hover {
+      color: $hover;
+      background-color: $hovercolor;
+    }
+    &:active,
+    &:focus {
+      color: $active;
+      background-color: $hovercolor;
+    }
+  }
+}
+
+
+
+@mixin buttons ($primarycolor,$bgcolor ) {
+  & {
+    margin: 10px;
+    width: 15rem;
+    display: inline-block;
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:1.25;
+    color:$primarycolor;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border-radius: 12px 6px 12px 0;
+    background-color: $bgcolor;
+
+    
+  }
+}
